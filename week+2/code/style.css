@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#wrap {
+    height:  100%;
+}
+h1{
+    margin: 0;
+    font-size: 1.6rem;
+    text-align: center;
+}
+header{
+    height: 200px;
+
+}
+.pic{
+    position: absolute;
+    top: 95px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    transition : .3s all;
+    border: 2px solid #fff;
+}
+.pic:hover{
+    transform: scale(1.1);
+}
